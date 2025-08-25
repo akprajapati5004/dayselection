@@ -118,7 +118,7 @@ class SelectedRangeCalendar extends StatelessWidget {
                         cell = _buildFullCell(date, Colors.teal);
                       }
                     } else {
-                      cell = _buildFullCell(date, Colors.teal.withOpacity(0.7));
+                      cell = _buildFullCell(date, Colors.teal.withValues(alpha: 0.7));
                     }
                   }
       
@@ -152,7 +152,7 @@ class SelectedRangeCalendar extends StatelessWidget {
           margin: const EdgeInsets.all(3),
           height: 40,
           decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [color, color.withOpacity(0.85)]),
+            gradient: LinearGradient(colors: [color, color.withValues(alpha: 0.85)]),
             borderRadius: BorderRadius.circular(12),
           ),
           alignment: Alignment.center,
@@ -199,7 +199,7 @@ class SelectedRangeCalendar extends StatelessWidget {
                       gradient: LinearGradient(
                         begin: Alignment.topCenter,
                         end: Alignment.center,
-                        colors: [color, color.withOpacity(0)],
+                        colors: [color, color.withValues(alpha: 0)],
                       ),
                       borderRadius: BorderRadius.circular(12),
                     ),
@@ -215,7 +215,7 @@ class SelectedRangeCalendar extends StatelessWidget {
                       gradient: LinearGradient(
                         begin: Alignment.bottomCenter,
                         end: Alignment.center,
-                        colors: [color, color.withOpacity(0)],
+                        colors: [color, color.withValues(alpha: 0)],
                       ),
                       borderRadius: BorderRadius.circular(12),
                     ),

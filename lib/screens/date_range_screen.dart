@@ -44,7 +44,9 @@ class DateRangeScreen extends StatelessWidget {
             picked.isAtSameMomentAs(
               DateTime(sel.endDate!.year, sel.endDate!.month, sel.endDate!.day),
             )) {
-          _showSnack(context, "Start date and end date cannot be the same.");
+          if (context.mounted) {
+            _showSnack(context, "Start date and end date cannot be the same.");
+          }
           return;
         }
         cubit.setStartDate(picked);
@@ -53,7 +55,9 @@ class DateRangeScreen extends StatelessWidget {
             picked.isAtSameMomentAs(
               DateTime(sel.startDate!.year, sel.startDate!.month, sel.startDate!.day),
             )) {
-          _showSnack(context, "Start date and end date cannot be the same.");
+          if (context.mounted) {
+            _showSnack(context, "Start date and end date cannot be the same.");
+          }
           return;
         }
         cubit.setEndDate(picked);
