@@ -1,6 +1,6 @@
 name: dayselection
 description: A Flutter package that provides a customizable day-of-week selector widget, useful for schedules, reminders, and calendar apps.
-version: 1.0.0+4
+version: 1.0.0+5
 
 homepage: https://github.com/akprajapati5004/dayselection.git
 repository: https://github.com/akprajapati5004/dayselection.git
