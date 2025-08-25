@@ -15,11 +15,11 @@ description: A Flutter package that provides a customizable day-of-week selector
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 1.0.0+2
 
-homepage: https://github.com/akprajapati5004/dayselection
-repository: https://github.com/akprajapati5004/dayselection
-issue_tracker: https://github.com/akprajapati5004/dayselection/issues
+homepage: https://github.com/akprajapati5004/dayselection.git
+repository: https://github.com/akprajapati5004/dayselection.git
+issue_tracker: https://github.com/akprajapati5004/dayselection/issues.git
 
 #environment:
 #  sdk: ^3.8.1

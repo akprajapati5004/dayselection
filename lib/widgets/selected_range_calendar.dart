@@ -101,7 +101,7 @@ class SelectedRangeCalendar extends StatelessWidget {
                           date,
                           Colors.orange,
                           bottom: true,
-                          label: "SL",
+                          label: "SH",
                         );
                       } else {
                         cell = _buildFullCell(date, Colors.teal);
@@ -112,7 +112,7 @@ class SelectedRangeCalendar extends StatelessWidget {
                           date,
                           Colors.purple,
                           top: true,
-                          label: "FL",
+                          label: "FH",
                         );
                       } else {
                         cell = _buildFullCell(date, Colors.teal);
