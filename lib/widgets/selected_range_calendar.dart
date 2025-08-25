@@ -39,7 +39,6 @@ class SelectedRangeCalendar extends StatelessWidget {
           );
       
           final firstDayOfMonth = DateTime(month.year, month.month, 1);
-          // Weekday in Dart: Monday=1,...Sunday=7; convert Sunday to 0
           final firstWeekdayOffset = firstDayOfMonth.weekday % 7;
       
           return Column(
